@@ -1,16 +1,16 @@
 {
-  "name": "js-test",
+  "name": "tsc-project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "tsc",
+    "build:watch": "tsc -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+  "dependencies": {
+    "typescript": "^5.0.4"
   }
 }
